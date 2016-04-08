@@ -101,6 +101,7 @@
 	}
 	.input-group-btn:last-child > .btn {
     margin-left: -50px;
+    margin-top: 10px;
 	}
 	.buscador {
 		padding: 2% !important;
@@ -147,10 +148,12 @@
 			width: 300px !important;
 			padding: 2% !important;
 		}
-		.precio {
-			font-size: 1.3em !important;
-		}
 	}
+		
+.precio {
+	font-size: 1.3em !important;
+}
+	
 
 #arrival {
 	padding: 5%;
@@ -196,12 +199,36 @@
 		margin-top: 10%;
 }
 
+#gal {
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
 .galerias {
 	@include gale
 }
 
 .newsale {
-    @include news (#ef717f, 10%);
+    @include news (#ef717f, 12%);
+}
+
+.salenew {
+	@include news (#17202A, 3%);
+}
+
+
+#clients {
+	background-image: url(../images/client-bg.jpg);
+	background-size: cover;
+	height: 300px; 
+	padding: 5%;
+	
+}
+
+
+
+.tachado {
+	text-decoration: line-through;
 }
 
 .mgrt {
@@ -211,6 +238,9 @@
 .font2 {
 	font-size: 1.5em;
 }
+
+
+
 
 
 
@@ -228,6 +258,7 @@
 			}
 		}
 	}
+	
 }
 
 

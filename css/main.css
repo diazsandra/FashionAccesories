@@ -78,7 +78,8 @@
   #accesories input {
     border: 1px solid #9da9ae !important; }
   #accesories .input-group-btn:last-child > .btn {
-    margin-left: -50px; }
+    margin-left: -50px;
+    margin-top: 10px; }
   #accesories .buscador {
     padding: 2% !important; }
     #accesories .buscador input {
@@ -109,8 +110,9 @@
   .blcorgba li {
     width: 300px !important;
     padding: 2% !important; }
-  .blcorgba .precio {
-    font-size: 1.3em !important; }
+
+.precio {
+  font-size: 1.3em !important; }
 
 #arrival {
   padding: 5%; }
@@ -146,6 +148,10 @@
   width: 100%;
   margin-top: 10%; }
 
+#gal {
+  margin-top: 2%;
+  margin-bottom: 5%; }
+
 .galerias {
   width: 100%;
   border: 1px solid #999999;
@@ -154,7 +160,7 @@
 
 .newsale {
   background-color: #ef717f;
-  top: 10%;
+  top: 12%;
   position: absolute;
   left: 8%;
   color: #ffffff;
@@ -162,6 +168,26 @@
   padding: 0 3px 8px 3px;
   font-size: 1em;
   width: 40px; }
+
+.salenew {
+  background-color: #17202A;
+  top: 3%;
+  position: absolute;
+  left: 8%;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0 3px 8px 3px;
+  font-size: 1em;
+  width: 40px; }
+
+#clients {
+  background-image: url(../images/client-bg.jpg);
+  background-size: cover;
+  height: 300px;
+  padding: 5%; }
+
+.tachado {
+  text-decoration: line-through; }
 
 .mgrt {
   margin-right: 45%; }
