@@ -115,7 +115,6 @@
 
 #contact {
 	background-color: #E0E0E0;
-
 	a {
 		color: inherit !important;
 	}
@@ -153,6 +152,7 @@
 .precio {
 	font-size: 1.3em !important;
 }
+
 	
 
 #arrival {
@@ -196,7 +196,7 @@
 		border-right: none;
 		height: 2px;
 		width: 100%;
-		margin-top: 10%;
+		margin-top: 10% !important;
 }
 
 #gal {
@@ -221,9 +221,118 @@
 	background-image: url(../images/client-bg.jpg);
 	background-size: cover;
 	height: 300px; 
-	padding: 5%;
+	padding: 8% 0;	
+	margin: 5% 0;
+}
+
+.borde1 {
+	@include border 
+}
+
+.newsale1 {
+	@include news (#ef717f, 20%);
+}
+
+.blogline {
+	text-align: center;
+	padding: 10%;
+	padding-left: 25% !important;
+}
+
+#orders {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.order {
+	@include border 
+}
+
+.btnorder {
+	border-right: 1px solid $muted;
+	padding: 1% 7% !important;
+	height: 100%;
+
+	i {
+		color: $muted;
+		font-size: 2em;
+	}
+}
+
+.bbbb{
+	h4 {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	p {
+		margin: 0 !important;
+		padding: 0 !important;	
+	}	
+}
+
+#footer1 {
+	background-color: $gris;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+	background-color: $blco;
+	color: $muted;
+	font-size: 1.2em;
+	text-align: center;
+	i {
+		margin-top: 35%;
+	}
+}
+
+.list {
+	color: inherit !important;
+	margin: 10% 0 !important;
 	
 }
+
+.img-circle {
+	background-color: $blco !important;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 25%;
+}
+
+footer {
+	background-color: $gris2;
+	color: $blco;
+	padding: 1%;
+	.flright {
+		float: right;
+	}
+}
+
+.pink {
+		color: #ef717f;
+	}
+
+
+
+.carousel-indicators1 {
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  text-align: center;
+  color: $blco;
+  	div {
+  		border: 2px solid $blco;
+  	}
+
+}
+
 
 
 
@@ -235,9 +344,35 @@
 	margin-right: 45%;
 }
 
+.mgrl10 {
+	margin-left: 3%;
+}
+
+.pdt5 {
+	padding-bottom: 25% !important;
+}
+
+.mgrt5 {
+	margin-top: 3%;
+}
+
+.mgrt10 {
+	margin-top: 15% !important;
+}
+
 .font2 {
 	font-size: 1.5em;
 }
+
+.pdt20 {
+	padding: 6%;
+}
+
+
+
+
+
+
 
 
 
@@ -258,6 +393,12 @@
 			}
 		}
 	}
+
+	.clients {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	}
+
 	
 }
 

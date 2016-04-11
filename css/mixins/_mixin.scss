@@ -16,6 +16,10 @@
     padding: 0 3px 8px 3px;
     font-size: 1em;
     width: 40px;
+}
 
+@mixin border {
+	border: 1px solid $muted;
+	padding: 2%;
 }
 
